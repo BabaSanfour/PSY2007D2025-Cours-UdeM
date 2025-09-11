@@ -35,7 +35,7 @@ Ce kit vous accompagne pour la partie programmation du cours consacré aux donn�
 
 ## Séance 1 — Notebook Colab
 - [Lien du notebook](https://colab.research.google.com/drive/1LKqnxEM3DMZoxsXgnRDSlC-tvCrBSdcC?usp=sharing)
-- Couvre des parties du Module 1 (Git/GitHub de base) et du Module 2 (bases Python, notebooks).
+- Couvre le Module 2 (bases Python, , bibliotheques, notebooks).
 - Conseil: ouvrez-le dans Colab, faites une copie dans votre Drive, puis exécutez cellule par cellule en lisant les explications.
 
 ## Installer localement (clone ou fork) et utiliser avec Colab
