@@ -33,6 +33,62 @@ Ce kit vous accompagne pour la partie programmation du cours consacré aux donn�
 2. Parcourez les modules dans l’ordre.
 3. Testez les scripts d’exemples et modifiez-les pour expérimenter.
 
+## Séance 1 — Notebook Colab
+- [Lien du notebook](https://colab.research.google.com/drive/1LKqnxEM3DMZoxsXgnRDSlC-tvCrBSdcC?usp=sharing)
+- Couvre des parties du Module 1 (Git/GitHub de base) et du Module 2 (bases Python, notebooks).
+- Conseil: ouvrez-le dans Colab, faites une copie dans votre Drive, puis exécutez cellule par cellule en lisant les explications.
+
+## Installer localement (clone ou fork) et utiliser avec Colab
+
+### Option A — Fork puis clone (si vous comptez contribuer)
+1. Forkez le dépôt sur GitHub (depuis l’interface du dépôt d’origine).
+2. Clonez votre fork en local:
+   ```bash
+   git clone https://github.com/<votre-compte>/<nom-du-repo>.git
+   cd <nom-du-repo>
+   ```
+3. Créez un environnement et installez les dépendances:
+   ```bash
+   python -m venv env_meeg
+   # macOS/Linux
+   source env_meeg/bin/activate
+   # Windows
+   # env_meeg\Scripts\activate
+
+   pip install -r "module 3: python for m_eeg/requirements.txt"
+   ```
+4. (Optionnel) Installez Jupyter et lancez-le:
+   ```bash
+   pip install jupyter
+   jupyter notebook
+   ```
+
+### Option B — Clone direct (lecture seule)
+```bash
+git clone https://github.com/BabaSanfour/PSY2007D2025-Cours-UdeM.git
+cd PSY2007D2025-Cours-UdeM
+python -m venv env_meeg
+source env_meeg/bin/activate  # ou env_meeg\Scripts\activate (Windows)
+pip install -r "module 3: python for m_eeg/requirements.txt"
+```
+
+### Utiliser ce dépôt dans Google Colab
+- Ouvrez un nouveau notebook Colab, puis clonez le dépôt:
+  ```python
+  !git clone https://github.com/BabaSanfour/PSY2007D2025-Cours-UdeM.git
+  %cd PSY2007D2025-Cours-UdeM
+  !pip install -r "module 3: python for m_eeg/requirements.txt"
+  ```
+- Exécutez les scripts d’exemple directement dans Colab:
+  ```python
+  !python "module 3: python for m_eeg/meeg_synthetic_psd.py"
+  ```
+- (Optionnel) Montez votre Google Drive pour sauvegarder/charger des fichiers:
+  ```python
+  from google.colab import drive
+  drive.mount('/content/drive')
+  ```
+
 ## Prérequis
 - Un ordinateur avec accès à Internet
 - Envie d’apprendre et d’explorer les données M/EEG ✨
