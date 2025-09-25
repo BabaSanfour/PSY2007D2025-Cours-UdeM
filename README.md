@@ -38,6 +38,10 @@ Ce kit vous accompagne pour la partie programmation du cours consacré aux donn�
 - Couvre le Module 2 (bases Python, , bibliotheques, notebooks).
 - Conseil: ouvrez-le dans Colab, faites une copie dans votre Drive, puis exécutez cellule par cellule en lisant les explications.
 
+## Séance 2 — Fichier Notebook 
+- [Lien du notebook](session2.ipynb)
+- Couvre le Module 4 et 5 (Base de MNE et netoyage de données).
+
 ## Installer localement (clone ou fork) et utiliser avec Colab
 
 ### Option A — Fork puis clone (si vous comptez contribuer)
