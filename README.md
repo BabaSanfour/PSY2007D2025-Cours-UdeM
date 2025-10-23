@@ -59,7 +59,7 @@ Ce kit vous accompagne pour la partie programmation du cours consacré aux donn�
    # Windows
    # env_meeg\Scripts\activate
 
-   pip install -r "module 3: python for m_eeg/requirements.txt"
+   pip install -r "module 3 - python for m_eeg/requirements.txt"
    ```
 4. (Optionnel) Installez Jupyter et lancez-le:
    ```bash
@@ -73,7 +73,7 @@ git clone https://github.com/BabaSanfour/PSY2007D2025-Cours-UdeM.git
 cd PSY2007D2025-Cours-UdeM
 python -m venv env_meeg
 source env_meeg/bin/activate  # ou env_meeg\Scripts\activate (Windows)
-pip install -r "module 3: python for m_eeg/requirements.txt"
+pip install -r "module 3 - python for m_eeg/requirements.txt"
 ```
 
 ### Utiliser ce dépôt dans Google Colab
@@ -81,11 +81,11 @@ pip install -r "module 3: python for m_eeg/requirements.txt"
   ```python
   !git clone https://github.com/BabaSanfour/PSY2007D2025-Cours-UdeM.git
   %cd PSY2007D2025-Cours-UdeM
-  !pip install -r "module 3: python for m_eeg/requirements.txt"
+  !pip install -r "module 3 - python for m_eeg/requirements.txt"
   ```
 - Exécutez les scripts d’exemple directement dans Colab:
   ```python
-  !python "module 3: python for m_eeg/meeg_synthetic_psd.py"
+  !python "module 3 - python for m_eeg/meeg_synthetic_psd.py"
   ```
 - (Optionnel) Montez votre Google Drive pour sauvegarder/charger des fichiers:
   ```python
