@@ -1,1 +1,4 @@
 .venv_psy2007
+tasks/
+*venv*/
+*COPIE*
