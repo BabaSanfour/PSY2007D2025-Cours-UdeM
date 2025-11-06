@@ -1,7 +1,10 @@
 mne
 mne-bids
+numpy
+pandas
 matplotlib
-sklearn
+scikit-learn
+mne-icalabel
 pooch
 tqdm
 autoreject
