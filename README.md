@@ -42,6 +42,19 @@ Ce kit vous accompagne pour la partie programmation du cours consacré aux donn�
 - [Lien du notebook](session2.ipynb)
 - Couvre le Module 4 et 5 (Base de MNE et netoyage de données).
 
+## Notebooks 01–08
+
+Ces notebooks livrés dans la racine présentent la progression détaillée de l’analyse. Voici ce que chacun couvre :
+
+- `01_preprocessing_notebook.ipynb` : exploration des données au format BIDS, nettoyage complet et factorisation des étapes de prétraitement en fonctions réutilisables.
+- `02_analysis1_gonogo.ipynb` : analyse des potentiels évoqués (ERP) pour le paradigme Go/NoGo avec la version 2 du notebook.
+- `03_analysis1_textsemantic.ipynb` : ERP pour la lecture de phrases congruentes vs incongruentes, version 2, avec interprétation des effets sémantiques.
+- `04_analysis1_fivepoint.ipynb` : prolongement du pipeline de prétraitement pour explorer les potentiels moteurs (MRCP) du paradigme Five-Point.
+- `05_analysis2_gonogo.ipynb` : analyse en fréquence des données Go/NoGo et extraction d’attributs issus des bandes d’intérêt.
+- `06_analysis2_textsemantic.ipynb` : même démarche en fréquence pour les données Congruent vs Incongruent, avec repérage systématique des bandes.
+- `07_analysis2_fivepoint.ipynb` : deuxième notebook de fréquence (actuellement orienté Go/NoGo) qui sert de base pour déployer la même approche sur les données Five-Point.
+- `08_apprentisage_machine.ipynb` : construction de pipelines de machine learning à partir des CSV dérivés des notebooks précédents pour classer les essais EEG selon les paradigmes.
+
 ## Installer localement (clone ou fork) et utiliser avec Colab
 
 ### Option A — Fork puis clone (si vous comptez contribuer)
